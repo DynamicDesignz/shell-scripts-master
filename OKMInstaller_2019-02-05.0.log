@@ -1,0 +1,28 @@
+2019-02-05 21:12:09,616 [    main] INFO  com.openkm.installer.Main - Running in Windows: 0.9.7-CE (build: d19b75d)
+2019-02-05 21:12:10,084 [    main] INFO  com.openkm.installer.Main - Local host: DESKTOP-GSO9RB8 (169.254.5.77)
+2019-02-05 21:12:10,084 [    main] INFO  com.openkm.installer.Main - Java version: 1.8.0_201
+2019-02-05 21:12:10,108 [    main] INFO  com.openkm.installer.Main - ERROR: Missing or empty JAVA_HOME environment variable
+2019-02-05 21:14:52,552 [    main] INFO  com.openkm.installer.Main - Running in Windows: 0.9.7-CE (build: d19b75d)
+2019-02-05 21:14:52,570 [    main] INFO  com.openkm.installer.Main - Local host: DESKTOP-GSO9RB8 (169.254.5.77)
+2019-02-05 21:14:52,573 [    main] INFO  com.openkm.installer.Main - Java version: 1.8.0_201
+2019-02-05 21:14:52,577 [    main] INFO  com.openkm.installer.Main - ERROR: Missing or empty JAVA_HOME environment variable
+2019-02-05 21:26:54,643 [    main] INFO  com.openkm.installer.Main - Running in Windows: 0.9.7-CE (build: d19b75d)
+2019-02-05 21:26:55,083 [    main] INFO  com.openkm.installer.Main - Local host: DESKTOP-GSO9RB8 (169.254.5.77)
+2019-02-05 21:26:55,083 [    main] INFO  com.openkm.installer.Main - Java version: 1.8.0_201
+2019-02-05 21:26:55,107 [    main] INFO  com.openkm.installer.Main - ERROR: Missing or empty JAVA_HOME environment variable
+2019-02-05 21:29:39,405 [    main] INFO  com.openkm.installer.Main - Running in Windows: 0.9.7-CE (build: d19b75d)
+2019-02-05 21:29:39,425 [    main] INFO  com.openkm.installer.Main - Local host: DESKTOP-GSO9RB8 (169.254.5.77)
+2019-02-05 21:29:39,425 [    main] INFO  com.openkm.installer.Main - Java version: 1.8.0_201
+2019-02-05 21:29:39,429 [    main] INFO  com.openkm.installer.Main - ERROR: Missing or empty JAVA_HOME environment variable
+2019-02-05 21:30:34,695 [    main] INFO  com.openkm.installer.Main - Running in Windows: 0.9.7-CE (build: d19b75d)
+2019-02-05 21:30:34,719 [    main] INFO  com.openkm.installer.Main - Local host: DESKTOP-GSO9RB8 (169.254.5.77)
+2019-02-05 21:30:34,719 [    main] INFO  com.openkm.installer.Main - Java version: 1.8.0_201
+2019-02-05 21:30:34,727 [    main] INFO  com.openkm.installer.Main - ERROR: Missing or empty JAVA_HOME environment variable
+2019-02-05 22:27:59,737 [    main] INFO  com.openkm.installer.Main - Running in Windows: 0.9.7-CE (build: d19b75d)
+2019-02-05 22:27:59,773 [    main] INFO  com.openkm.installer.Main - Local host: DESKTOP-GSO9RB8 (169.254.5.77)
+2019-02-05 22:27:59,773 [    main] INFO  com.openkm.installer.Main - Java version: 1.8.0_201
+2019-02-05 22:27:59,773 [    main] INFO  com.openkm.installer.Main - ERROR: Missing or empty JAVA_HOME environment variable
+2019-02-05 22:46:46,970 [    main] INFO  com.openkm.installer.Main - Running in Windows: 0.9.7-CE (build: d19b75d)
+2019-02-05 22:46:46,985 [    main] INFO  com.openkm.installer.Main - Local host: DESKTOP-GSO9RB8 (169.254.5.77)
+2019-02-05 22:46:46,985 [    main] INFO  com.openkm.installer.Main - Java version: 1.8.0_201
+2019-02-05 22:46:46,985 [    main] INFO  com.openkm.installer.Main - ERROR: Missing or empty JAVA_HOME environment variable

@@ -1,0 +1,62 @@
+git clone https://github.com/DynamicDesignz/raspi-scripts.git (Rename On Git)
+git clone https://github.com/DynamicDesignz/ubuntu-scripts-1
+git clone https://github.com/DynamicDesignz/ubuntu-cheatsheet.git
+git clone https://github.com/DynamicDesignz/Ubuntu-Shell-Scripts.git
+git clone https://github.com/DynamicDesignz/log4sh
+git clone https://github.com/DynamicDesignz/GoogleSearchCrawler.git
+git clone https://github.com/DynamicDesignz/bpkg.git
+
+git clone https://github.com/DynamicDesignz/Shinobi-Installer.git
+
+echo "Webmin Install"
+echo "deb http://download.webmin.com/download/repository sarge contrib" >> /etc/apt/sources.list
+wget http://www.webmin.com/jcameron-key.asc
+sudo apt-key add jcameron-key.asc
+sudo apt update 
+sudo apt install webmin
+touch webmin 
+echo "firefox https://your_server_ip:10000" >> webmin
+chmod +x webmin
+firefox https://your_server_ip:10000
+
+#sudo nano /etc/apache2/sites-available/your_domain.conf
+#<VirtualHost *:80>
+#       ServerAdmin your_email
+#       ServerName your_domain
+#       ProxyPass / http://localhost:10000/
+#       ProxyPassReverse / http://localhost:10000/
+#</VirtualHost>
+
+sudo nano /etc/webmin/miniserv.conf
+ssl=1 > ssl=0
+
+sudo nano /etc/webmin/config
+referers=your_domain
+
+sudo systemctl restart webmin
+sudo a2enmod proxy_http
+sudo a2ensite your_domain
+sudo systemctl restart apache2
+sudo ufw allow in "Apache Full"
+sudo certbot --apache --email your_email -d your_domain --agree-tos --redirect --noninteractive
+
+mysql_secure_installation
+sudo systemctl restart mysql
+
+systemctl enable mysql
+/usr/bin/mysql -u root -p
+UPDATE mysql.user SET authentication_string = PASSWORD('password') WHERE User = 'root';
+FLUSH PRIVILEGES;
+SELECT User, Host, authentication_string FROM mysql.user;
+CREATE DATABASE demodb;
+INSERT INTO mysql.user (User,Host,authentication_string,ssl_cipher,x509_issuer,x509_subject)
+VALUES('demouser','localhost',PASSWORD('demopassword'),'','','');
+GRANT ALL PRIVILEGES ON demodb.* to demouser@localhost;
+SHOW GRANTS FOR 'demouser'@'localhost';
+
+aptitude install -y logwatch
+nano /usr/share/logwatch/default.conf/logwatch.conf
+
+cd ~/GitHub/Scripts
+cp * /usr/local/bin 
+

@@ -1,0 +1,2 @@
+wget http://aligajani.com -O - 2>/dev/null | 
+    grep -oP 'href="\Khttp:.+?"' | sed 's/"//' | grep -v facebook > file.txt

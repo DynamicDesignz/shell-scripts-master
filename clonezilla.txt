@@ -1,0 +1,33 @@
+Install Clonezilla On Ubuntu 16.04
+Edit the sources.list file
+sudo gedit /etc/apt/sources.list
+Add following lines at the end of the file and save
+deb http://us.archive.ubuntu.com/ubuntu xenial main universe
+Run following commands to update and install
+sudo apt-get update
+
+sudo apt-get install clonezilla
+
+
+Ubuntu 18.4 install
+
+
+sudo dd if=/dev/sda1 of=/dev/sdb1
+
+Restore
+sudo dd if=/dev/sdb of=/dev/sda
+
+
+Full Tar System Backup
+
+sudo tar -cvpzf backup.tar.gz --exclude=/backup.tar.gz --one-file-system /
+
+ 
+Once the command above has finished its run, look for the backup.tar.gz file inside the / folder and save it to an external file system. If ever you lose some files that need to be restored, just run the following command to restore them:
+
+sudo tar -xvpzf /path/to/backup.tar.gz -C /restore/location --numeric-owner
+
+
+
+
+

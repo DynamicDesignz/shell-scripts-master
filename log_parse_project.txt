@@ -1,0 +1,3 @@
+CURRENT PROJECTS •
+
+LogParse -  A BASH/Python-based framework compiled of a list of supporting UNIX-based packages. That compiles, compares, sorts and differentiates between similar log entries and then matches them against intrusion and audit logs from Snort, Tripwire, Iptables and other such entries, storing them in a database for analysis. An email alert is automated to alert the user of the logs and that changes have been made to deny.hosts.

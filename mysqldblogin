@@ -1,0 +1,5 @@
+#!/bin/bash
+
+echo "Entering ZoneMinder DB Backend!"
+echo
+mysql -u root -p

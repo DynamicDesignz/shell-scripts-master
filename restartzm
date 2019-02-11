@@ -1,0 +1,6 @@
+#!/bin/bash
+
+echo "Restarting ZoneMinder"
+echo
+echo "This is likely due to scheduled maitnence and must restart..."
+sudo service zoneminder restart

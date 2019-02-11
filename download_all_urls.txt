@@ -1,0 +1,4 @@
+echo -n "Get URLS: " 
+read geturls
+wget -r -np -l 1 -A zip $geturls
+

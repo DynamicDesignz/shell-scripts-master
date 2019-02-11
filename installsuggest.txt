@@ -1,0 +1,7 @@
+
+echo "Install Script To Install Suggested Packages"
+
+echo -n "Install: "
+read pkg
+sudo apt-get install $pkg --show-suggests --show-progress
+echo "set string to autoget dependencies "

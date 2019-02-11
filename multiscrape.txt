@@ -1,0 +1,21 @@
+#!/bin/bash
+echo "==============================================================================================================================="
+echo "Multi-Scrape - Scrapes Spiders And Dumps Mass Text Content From A Given URL And Outputs The Varied Content Details From The URL"
+echo "==============================================================================================================================="
+sleep 1
+echo -n "Enter URL: "
+read uri
+wget -r -l 1 $uri
+curl -s --get --data-urlencode "q=example" $uri | sed 's/"unescapedUrl":"\([^"]*\).*/\1/;s/.*GwebSearch",//'
+lynx -dump $uri -listonly
+w3m -dump $uri
+links -dump $uri $uri.html
+elinks -dump $uri
+googler $uri
+surfraw $uri
+
+echo "$uri" |
+   wget -O- -i- | 
+   hxnormalize -x | 
+   hxselect -i "div.most_popular_content" |  
+   lynx -stdin -dump > ~/theMostPoupularInNews

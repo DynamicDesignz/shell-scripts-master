@@ -1,0 +1,16 @@
+#!/bin/bash
+echo "Prereqs And Depends For Zoneminder And Supporting Systems"
+echo
+sudo apt-get install openssh-server
+sudo apt-get install samba
+sudo apt-get install ftpd
+
+sudo apt-get install ufw
+# sudo apt-get install openssl
+sudo apt-get install nmap
+sudo apt-get install wireshark
+sudo apt-get install snort
+sudo apt-get install harden
+sudo apt-get install tiger
+
+

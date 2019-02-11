@@ -1,0 +1,36 @@
+#!/bin/sh
+
+clear
+read -p "This script installs Zoneminder 1.30.4 on Ubuntu 16.04 AMD64 with LAMP (MySQL) installed...
+Press Enter to continue or Ctrl + c to quit" nothing
+clear
+read -p "You must be logged in as root using sudo su ...
+Press Enter to continue or Ctrl + c to quit" nothing
+clear
+read -p "Next we will add the PPA repository. Press enter to continue" nothing
+sudo add-apt-repository ppa:iconnor/zoneminder
+sudo apt-get update
+clear
+read -p "Next we will add settings to MySQL and PHP config files. 
+Press enter to continue" nothing
+awk '$0="date.timezone = "$0' /etc/timezone >> /etc/php/7.0/apache2/php.ini
+echo "[mysqld]" >> /etc/mysql/my.cnf
+echo "init_connect = 'SET @@sql_mode = CASE CURRENT_USER() WHEN \'zmuser@localhost\' THEN \'NO_ENGINE_SUBSTITUTION\' ELSE @@sql_mode    END;'" >> /etc/mysql/my.cnf
+systemctl restart mysql
+clear
+read -p "Now we will install, enable and start Zoneminder. 
+Press enter to continue" nothing
+apt-get install -y zoneminder
+systemctl enable zoneminder
+service zoneminder start
+adduser www-data video
+a2enmod cgi
+a2enconf zoneminder
+a2enmod rewrite
+chown -R www-data:www-data /usr/share/zoneminder/
+service apache2 reload
+read -p "Open Zoneminder in a web browser (http://server-ip/zm). 
+Click on Options - Paths and change PATH_ZMS to /zm/cgi-bin/nph-zms 
+Click the Save button. 
+Press enter to continue" nothing
+clear

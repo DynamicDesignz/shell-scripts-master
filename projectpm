@@ -1,0 +1,69 @@
+#!/bin/bash
+
+sudo apt-get install ffmpeg libarchive-tar-perl libarchive-zip-perl libdate-manip-perl libdevice-serialport-perl
+sudo apt-get install libjpeg62 libmime-perl libstdc++6 libwww-perl zlib1g
+sudo apt-get install apache2 php5-mysql libapache2-mod-php5 mysql-server
+
+sudo ln -s /etc/zm/apache.conf /etc/apache2/conf.d/zoneminder.conf 
+sudo /etc/init.d/apache2 force-reload
+
+sudo adduser www-data video
+
+git clone https://github.com/goruck/smart-zoneminder.git
+git clone https://github.com/pliablepixels/zmNinja.git
+
+
+sudo apt-get install zoneminder
+sudo apt-get update && sudo apt-get install -y openalpr openalpr-daemon openalpr-utils libopenalpr-dev
+
+
+echo "Time To Read The Manuals!"
+echo 
+echo "Fast object detection, face recognition and S3 upload of ZoneMinder alarms"
+firefox https://github.com/goruck/smart-zoneminder
+echo "How To Setup Motion Detection"
+firefox https://wiki.zoneminder.com/How_to_setup_motion_detection
+echo "Possible Hardware Configurations"
+firefox http://terminal28.com/how-to-install-and-configure-zoneminder-linux-cctv-debian/
+
+sleep 2
+echo "Opening ZoneMinder Web-Based GUI Interface"
+firefox http://$IP/zm
+echo
+echo "Printing IP Address Host Informaton If Web Interface Was Not Executed Properly..."
+ifconfig eth0 | grep inet
+ifconfig wlan0 | grep inet
+
+echo -n "Enter Host IP: "
+read myip
+firefox http://$myip/zm#!/bin/bash
+
+sudo apt-get install ffmpeg libarchive-tar-perl libarchive-zip-perl libdate-manip-perl libdevice-serialport-perl
+sudo apt-get install libjpeg62 libmime-perl libstdc++6 libwww-perl zlib1g
+sudo apt-get install apache2 php5-mysql libapache2-mod-php5 mysql-server
+
+sudo ln -s /etc/zm/apache.conf /etc/apache2/conf.d/zoneminder.conf 
+sudo /etc/init.d/apache2 force-reload
+
+sudo adduser www-data video
+
+git clone https://github.com/goruck/smart-zoneminder.git
+git clone https://github.com/pliablepixels/zmNinja.git
+
+
+sudo apt-get install zoneminder
+sudo apt-get update && sudo apt-get install -y openalpr openalpr-daemon openalpr-utils libopenalpr-dev
+
+
+echo "Time To Read The Manuals!"
+echo 
+echo "Fast object detection, face recognition and S3 upload of ZoneMinder alarms"
+firefox https://github.com/goruck/smart-zoneminder
+echo "How To Setup Motion Detection"
+firefox https://wiki.zoneminder.com/How_to_setup_motion_detection
+echo "Possible Hardware Configurations"
+firefox http://terminal28.com/how-to-install-and-configure-zoneminder-linux-cctv-debian/
+
+sleep 2
+echo "Opening ZoneMinder Web-Based GUI Interface"
+firefox http://192.168.1.115/zm

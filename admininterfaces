@@ -1,0 +1,17 @@
+#!/bin/bash
+
+echo "Installing System Admin Web Interfaces"
+echo
+echo "Webmin"
+git clone https://github.com/webmin/webmin.git
+cd ~/webmin && ls
+sleep 2
+echo "Filemin"
+git clone https://github.com/Real-Gecko/Filemin.git
+cd ~/filemin && ls
+
+sleep 2 
+
+echo "Start Yakauke And Configure Webmin Interface For System Back Testing & Security"
+
+sudo yakauke

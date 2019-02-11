@@ -1,0 +1,17 @@
+#!/bin/bash
+cd /opt && mkdir PornScrapeSutie 
+cd PornScrapeSuite
+git clone(){
+https://github.com/search?p=10&q=porn&type=Repositories
+https://github.com/formateddd/pornhub
+https://github.com/QuantumLiu/PornSpider
+https://github.com/blackmatch/pornhub-downloader
+https://github.com/LucasLeandro1204/Pornsearch
+https://github.com/StashApp/StashServer
+https://github.com/WebmasterHacks/pornhub
+https://github.com/PornSieve/porn_sieve
+https://github.com/miagilepner/porny
+https://github.com/gedankenstuecke/pOrNtology
+https://github.com/backlights-zz/pornhub-dl
+https://github.com/petrarch1603/MapPornBot
+}

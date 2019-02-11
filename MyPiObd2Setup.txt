@@ -1,0 +1,17 @@
+#!/bin/bash
+
+sudo apt-get install python-serial
+sudo apt-get install bluetooth bluez-utils blueman
+sudo apt-get install python-wxgtk2.8 python-wxtools wx2.8-i18n libwxgtk2.8-dev
+sudo apt-get install git-core#  sudo reboot
+
+cd ~
+git clone https://github.com/Pbartek/pyobd-pi.git
+
+
+cd pyobd-pi
+sudo su
+python obd_gui.py
+
+#  cd pyobd-pi
+#  python obd_recorder.py

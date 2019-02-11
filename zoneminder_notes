@@ -1,0 +1,122 @@
+			ZONEMINDER PROPRITARY SYSTEM DOCUMENTATION
+
+
+ZONEMINDER NOTES FOR WRITING FUTURE DOCUMENTATION OF CONFIGURATION
+==================================================================
+
+GitHub Full Automated User Input Script For Nginx Virtual Host Creation (Apache)
+https://github.com/RoverWire/virtualhost <--Use Script/Docs As Guideline For Apache Porting
+
+COMPILE THIS VERSION FROM SOURCE CODE SEGMENTS!
+https://www.zyxware.com/articles/5742/virtual-host-creation-using-bash-script
+
+===========================================================================================
+PREREQUESITES DEPENDENCIES AND SECURITY AUDIT CHECKPOINTS! - 
+===========================================================================================
+NOTES: 
+INFO:	 Upon ZM Final Config And Cleanup Run InfoSec Audit Tools And Review Logs
+		AUDITS: tiger, harden, rkhunter, (CHECKS AGAINST Snort & Tripwire Enteries!)
+ 
+Warning: Re-Configure Tripwire Interfaces From Default Install! (Deprecate Install)
+Warning: Finish Snort Default Configuration And Rules With Scope Defined!" 
+
+
+Implement: Webmin Administrative Back-End Configuration Interface	
+	   (For Advanced Administrative Systems Configuration!) 
+
+
+
+
+==========================================================================================
+ZONEMINDER MAIN NOTES SYSTEM DETAILS AND CONFIGURATIONS!
+==========================================================================================
+
+Admin Web Interface: 
+http://192.168.1.115/zm 
+(static)
+
+
+Systems: Apache, MySQL, ZoneMinder, Sendmail, Snort, 
+
+	Config Files:
+
+ZoneMinder:   	/etc/zm/zm.conf
+Apache: 	/etc/apache2/*		/
+MySQL: 		/etc/mysql/my.cnf
+PHP:		/etc/php/7.0/apache2/php.ini
+
+	Networks:
+
+Interfaces: 	/etc/network/interfaces
+Hosts: 		/etc/hosts
+
+
+	Security:
+
+Tripwire:
+
+
+	Log Files:
+
+ZoneMinder: /var/log/zm
+ALPR: /var/log/alpr.log
+Apache: /var/log/apache2
+Snort: /var/log/snort
+Samba: /var/log/samba
+Tiger: /var/log/tiger
+
+FailLog: /var/log/faillog
+
+
+==========================
+BASE SUPPORT SYSTEM LOGS
+==========================
+
+alternatives.log
+apt
+auth.log
+boot.log
+bootstrap.log
+btmp
+chkrootkit
+cups
+dist-upgrade
+dmesg
+dpkg.log
+faillog
+fontconfig.log
+fsck
+gpu-manager.log
+hp
+installer
+kern.log
+lastlog
+lightdm
+mail.log
+mysql
+samba
+snort
+speech-dispatcher
+syslog
+tiger
+unattended-upgrades
+upstart
+wtmp
+Xorg.0.log
+
+
+===========================================================
+RECOMMENDED FUTURE IMPLEMENTATION OF SERVICES AND FEATURES!
+===========================================================
+
+Here is a list of supporting back-end and front-end (system-wide)
+features that should be implemented on a later version upgrade of 
+this system at a later date in time after continuity can be verified 
+across the board and all support infrastrtuces have been backed up!
+
+1. Full (Network-Level) System Backup of Infrastruce Supports To Off-Prem Remote Cloud Storage!
+2. Implementation of Public-Facing FQDN-TLD Remotely Hosted With System-Based DNS & Port Forward
+3. Implement Web-Based Secure Socket Layer (SSL) With OpenSSL Package Upon Successful DNS Config
+
+4. Please See: Admin Jeremy - Consultation On Re-Provisioning Of InfoSec Based Security Measures!
+   (System/Network Audits) (Scope & Execution Of White-Hat Penetration-Tests & Reporting) (FINAL REMEDIATIONS) 

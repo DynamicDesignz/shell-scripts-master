@@ -1,0 +1,96 @@
+curl all html urls in a list combine and convert into pdf
+
+
+
+History Search — Search
+https://historysearch.com/search/history
+
+Edit Page ‹ Research-Press — WordPress
+http://jeremyfuller.online/wp-admin/post.php?post=156&action=edit
+
+Extensions
+chrome://extensions/?
+
+Files - Nextcloud
+http://mycloud.jeremyfuller.online/index.php/apps/files/?dir=/&fileid=135
+
+ghdb search - Google Search
+https://www.google.com/search?rlz=1C1SQJL_enUS828US828&ei=fhcoXLD7LbPD0PEPqMOM8A8&q=ghdb+search&oq=ghdb+search&gs_l=psy-ab.3..0i22i30.29446.30916..31450...0.0..0.228.1215.0j5j2......0....1..gws-wiz.......0j0i71j35i39j0i67j0i10j0i22i10i30j0i13.8roDFOSvJv8
+
+Google Hacking Database (GHDB) - Offensive Security
+https://www.offensive-security.com/community-projects/google-hacking-database/
+
+Google Hacking Database
+https://www.exploit-db.com/google-hacking-database
+
+Desktop - Google Drive
+https://drive.google.com/drive/folders/0B2T-nMMVswGjcG05RE13ek4ycXc
+
+HOWTO Fetch Internet Resources Using The urllib Package — Python v3.1.5 documentation
+https://docs.python.org/3.1/howto/urllib2.html#fetching-urls
+
+urllib – simple interface for network resource access - Python Module of the Week
+https://pymotw.com/2/urllib/
+
+bash script web crawler examples - Google Search
+https://www.google.com/search?q=bash+script+web+crawler+examples&rlz=1C1SQJL_enUS828US828&oq=bash+script+web+crawler+examples&aqs=chrome..69i57.21025j0j7&sourceid=chrome&ie=UTF-8
+
+Web Scraping with bash – Liliana Sousa – Medium
+https://medium.com/@LiliSousa/web-scraping-with-bash-690e4ee7f98d
+
+Writing a Simple Web Spider Using Command Line Tools in Linux | William J Turkel
+https://williamjturkel.net/2013/09/29/writing-a-simple-web-spider-using-command-line-tools-in-linux/
+
+Bash Web Crawler
+https://gist.github.com/antoineMoPa/ada42dcfc96197e38dc8c4df363aed72
+
+Using the Linux Shell for Web Scraping | joy of data
+https://www.joyofdata.de/blog/using-linux-shell-web-scraping/
+
+a crawler using wget and xargs
+http://eigenjoy.com/2010/09/06/a-crawler-using-wget-and-xargs/
+
+web spider - Google Search
+https://www.google.com/search?rlz=1C1SQJL_enUS828US828&ei=l1AoXMj_KdW_0PEP9-WasA0&q=web+spider&oq=web+spider&gs_l=psy-ab.3..0l8j0i20i263j0.68058.69619..69824...0.0..0.571.2246.0j2j2j1j1j1......0....1..gws-wiz.......0i71j35i39j0i67j0i131i67j0i131j0i10.NfIXgu2R-40
+
+What Is Data Scraping And How Can You Use It? | Target Internet
+https://www.targetinternet.com/what-is-data-scraping-and-how-can-you-use-it/
+
+HTML Scraping — The Hitchhiker's Guide to Python
+https://docs.python-guide.org/scenarios/scrape/
+
+Data Scraper - Easy Web Scraping - Chrome Web Store
+https://chrome.google.com/webstore/detail/data-scraper-easy-web-scr/nndknepjnldbdbepjfgmncbggmopgden?hl=en-US
+
+How to Web Scrape with Python in 4 Minutes – Towards Data Science
+https://towardsdatascience.com/how-to-web-scrape-with-python-in-4-minutes-bc49186a8460
+
+cmd.exe - Batch to find all specific folders - Super User
+https://superuser.com/questions/980852/batch-to-find-all-specific-folders
+
+web scraping for research - Google Search
+https://www.google.com/search?rlz=1C1SQJL_enUS828US828&ei=O1goXN-KKtC50PEPrcilmA4&q=web+scraping+for+research&oq=web+scraping+for+research&gs_l=psy-ab.3..0j0i22i30l6.11405.33901..34171...0.0..0.477.7476.0j5j15j3j5......0....1..gws-wiz.......0i71j35i39j0i67j0i131j0i131i67j0i20i263.Zy8o6snQbh8
+
+Web Scraping Tutorial with Python: Tips and Tricks
+https://www.kdnuggets.com/2018/02/web-scraping-tutorial-python.html
+
+The ultimate list of Web Scraping tools and software
+https://www.kdnuggets.com/2018/07/ultimate-list-web-scraping-tools-software.html
+
+Web Scraper
+https://www.webscraper.io/documentation
+
+Scraper Parsers - Free Web Scraping - Chrome Web Store
+https://chrome.google.com/webstore/detail/scraper-parsers-free-web/mhfjedhbggbodliofccpefegbmaoohin?hl=en
+
+srivatsan-ramesh/Music-Scraper: Gets Songs from the web and allows users to download the same.
+https://github.com/srivatsan-ramesh/Music-Scraper
+
+Scraping for content marketing ideas & research - Builtvisible
+https://builtvisible.com/scraping-for-content-marketing/
+
+Simple Beginning to Web Scraping – Towards Data Science
+https://towardsdatascience.com/simple-beginning-to-web-scraping-ef2f2287aff9
+
+Introduction to Web Scraping for Researchers | GC Digital Fellows
+https://digitalfellows.commons.gc.cuny.edu/2015/10/22/introduction-to-web-scraping-for-researchers/

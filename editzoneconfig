@@ -1,0 +1,5 @@
+#!/bin/bash
+
+echo "Edit ZoneMinder Config"
+sudo gedit /etc/zm/zm.conf
+
