@@ -1,12 +1,4 @@
-git clone https://github.com/DynamicDesignz/raspi-scripts.git (Rename On Git)
-git clone https://github.com/DynamicDesignz/ubuntu-scripts-1
-git clone https://github.com/DynamicDesignz/ubuntu-cheatsheet.git
-git clone https://github.com/DynamicDesignz/Ubuntu-Shell-Scripts.git
-git clone https://github.com/DynamicDesignz/log4sh
-git clone https://github.com/DynamicDesignz/GoogleSearchCrawler.git
-git clone https://github.com/DynamicDesignz/bpkg.git
-
-git clone https://github.com/DynamicDesignz/Shinobi-Installer.git
+#!/bin/bash
 
 echo "Webmin Install"
 echo "deb http://download.webmin.com/download/repository sarge contrib" >> /etc/apt/sources.list
